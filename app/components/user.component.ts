@@ -9,11 +9,18 @@ import { Component } from '@angular/core';
   `,
 })
 export class UserComponent  {
-	name = 'Thomas',
-	email = 'thodges@javascriptonline.org',
-	address = {
-		street: '2125 Benicia Ct',
-		city: 'Davis',
-		state: 'CA'
+	name;
+	email;
+	address;
+
+	constructor() {
+		this.name = 'Thomas',
+		this.email = 'thodges@javascriptonline.org',
+		this.address = {
+			street: '2125 Benicia Ct',
+			city: 'Davis',
+			state: 'CA'
+		}
+
 	}
 }
