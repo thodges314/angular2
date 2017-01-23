@@ -1,0 +1,11 @@
+
+On all platforms:
+ $ python setup.py build
+
+To install on Unix:
+ $ sudo python setup.py install
+
+WEBSITE
+ * Windows: http://pypi.python.org/pypi/Markdown/1.7
+ * Linux: $ sudo apt-get install python-markdown
+
